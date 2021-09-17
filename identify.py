@@ -13,8 +13,7 @@ Gandhi_face_encoding = face_recognition.face_encodings(image_of_Gandhi)[0]
 image_of_lal = face_recognition.load_image_file('./img/known/lal2.jpeg')
 lal_face_encoding = face_recognition.face_encodings(image_of_lal)[0]
 
-image_of_sar = face_recognition.load_image_file('./img/known/sardar2.jpg')
-sar_face_encoding = face_recognition.face_encodings(image_of_sar)[0]
+
 
 
 
@@ -31,8 +30,6 @@ known_face_encodings = [
   Nehru_face_encoding,
   Gandhi_face_encoding,
   lal_face_encoding,
-  sar_face_encoding,
- 
   radha_face_encoding,
   kalam_face_encoding
 ]
@@ -42,7 +39,6 @@ known_face_names = [
   "Nehru",
   "Gandhi",
   "Lal bahadur shastri",
-  "sardar vallabhai patel",
   "sp radhakrishnan",
   "Adbul Kalam"
 ]
