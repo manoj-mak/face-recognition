@@ -2,7 +2,7 @@
 This is an implementation of python's face recognition module, loaded with known faces of Indian national leaders.
 
 # output of sample:
-<img src="identify.jpg" > </img>
+<img src="identity.jpg" > </img>
 
 # steps to run:
 ### 1. create an virtualenv,
